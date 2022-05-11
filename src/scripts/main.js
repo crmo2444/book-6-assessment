@@ -1,4 +1,4 @@
-import { fetchAuthors } from "./dataAccess.js"
+import { fetchAuthors, fetchLetters, fetchTopics } from "./dataAccess.js"
 import { PenPals } from "./PenPals.js"
 
 const mainContainer = document.querySelector(".container")
@@ -11,10 +11,9 @@ mainContainer.addEventListener(
 )
 
 const render = () => {
-    fetchAuthors().then(() => {
+    fetchAuthors().then(() => fetchLetters()).then(() => fetchTopics()).then(() =>{
     mainContainer.innerHTML = PenPals()
-    }
-    )
+    })
 }
 
 render()

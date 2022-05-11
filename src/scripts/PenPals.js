@@ -1,22 +1,26 @@
 //responsibility: create function that renders all form HTML + saved letters
 
 import { Authors } from "./Authors.js"
+import { Letter } from "./Letter.js"
+import { Topics } from "./Topics.js"
 
 export const PenPals = () => {
     return `
-    <section class="form">
         <h1>Pen Pal Society</h1>
-            <div class="authors">
+        <section class="form">
+            <div class="input">
             ${Authors()}
             </div>
-            <div class="letter">
+            <div class="input">
+            ${Letter()}
             </div>
-            <div class="topics">
+            <div class="input">
+            ${Topics()}
             </div>
-            <div class="recipients">
+            <div class="input">
             </div>
+        </section>
             <button class="button" id="sendLetter">Send Letter</button>
-    </section>
 
     <section class="savedLetters">
         <h2>Letters</h2>
