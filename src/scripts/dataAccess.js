@@ -39,3 +39,24 @@ export const fetchAuthors = () => {
             }
         )
 }
+
+export const fetchLetters = () => {
+    return fetch(`${API}/letters`)
+        .then(response => response.json())
+        .then(
+            (data) => {
+                applicationState.letters = data
+            }
+        )
+}
+
+
+export const fetchTopics = () => {
+    return fetch(`${API}/topics`)
+        .then(response => response.json())
+        .then(
+            (data) => {
+                applicationState.topics = data
+            }
+        )
+}
