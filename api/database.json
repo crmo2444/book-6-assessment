@@ -1,0 +1,23 @@
+{
+    "authors": [
+        { "id": 1, "name": "David Berry","email": "davidaberry@email.com" },
+        { "id": 2, "name": "Dawn Steele","email": "dawnrsteele@email.com" },
+        { "id": 3, "name": "Katherine Newson","email": "katherinejnewson@email.com" },
+        { "id": 4, "name": "Thomas Rolfe","email": "thomaserolfe@email.com" }
+    ],
+    "topics": [
+        { "id": 1, "topic": "Business"},
+        { "id": 2, "topic": "Friendly"},
+        { "id": 3, "topic": "Family"},
+        { "id": 4, "topic": "Congratulations"},
+        { "id": 5, "topic": "Condolences"}
+    ],
+    "letters": [],
+    "recipients": [
+        { "id": 1, "name": "David Berry","email": "davidaberry@email.com" },
+        { "id": 2, "name": "Dawn Steele","email": "dawnrsteele@email.com" },
+        { "id": 3, "name": "Katherine Newson","email": "katherinejnewson@email.com" },
+        { "id": 4, "name": "Thomas Rolfe","email": "thomaserolfe@email.com" }
+    ],
+    "completedLetters": []
+}
