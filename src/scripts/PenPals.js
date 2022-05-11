@@ -6,21 +6,24 @@ import { Topics } from "./Topics.js"
 
 export const PenPals = () => {
     return `
-        <h1>Pen Pal Society</h1>
-        <section class="form">
-            <div class="input">
+    <h1>Pen Pal Society</h1>
+
+    <article class="input">
+        <section class="authors">
+            <h4>Authors</h2>
             ${Authors()}
-            </div>
-            <div class="input">
-            ${Letter()}
-            </div>
-            <div class="input">
-            ${Topics()}
-            </div>
-            <div class="input">
-            </div>
         </section>
-            <button class="button" id="sendLetter">Send Letter</button>
+        <section class="letter">
+            <h4>Letter</h2>
+            ${Letter()}
+            </section>
+            <section class="topics">
+            <h4>Topics</h2>
+            ${Topics()}
+        </section>
+    </article>
+
+    <button class="button" id="sendLetter">Send Letter</button>
 
     <section class="savedLetters">
         <h2>Letters</h2>

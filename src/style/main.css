@@ -1,7 +1,7 @@
-div {
+
+
+.topicList {
     display: flex;
-    flex-direction: column;
-    width: 500px;
-    font-weight: bold;
-    font-size: larger;
+    flex-direction: row;
+    list-style-type: none;
 }

@@ -7,8 +7,7 @@ import { getAuthors } from "./dataAccess.js";
 export const Authors = () => {
 
     let authors = getAuthors()
-    let html = `<label for="authors">Authors</label>
-    <select class="authors" id="authors">
+    let html = `<select class="authors" id="authors">
     <option value="0">Choose</option>`
 
     let authorList = authors.map(author => { 
