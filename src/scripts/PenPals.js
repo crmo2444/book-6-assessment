@@ -2,6 +2,7 @@
 
 import { Authors } from "./Authors.js"
 import { Letter } from "./Letter.js"
+import { Recipients } from "./Recipients.js"
 import { Topics } from "./Topics.js"
 
 export const PenPals = () => {
@@ -16,10 +17,14 @@ export const PenPals = () => {
         <section class="letter">
             <h4>Letter</h2>
             ${Letter()}
-            </section>
-            <section class="topics">
+        </section>
+        <section class="topics">
             <h4>Topics</h2>
             ${Topics()}
+        </section>
+        <section class="recipients">
+            <h4>Recipients</h2>
+            ${Recipients()}
         </section>
     </article>
 
