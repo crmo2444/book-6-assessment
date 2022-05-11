@@ -60,3 +60,13 @@ export const fetchTopics = () => {
             }
         )
 }
+
+export const fetchRecipients = () => {
+    return fetch(`${API}/recipients`)
+        .then(response => response.json())
+        .then(
+            (data) => {
+                applicationState.recipients = data
+            }
+        )
+}

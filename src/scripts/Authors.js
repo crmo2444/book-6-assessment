@@ -8,7 +8,7 @@ export const Authors = () => {
 
     let authors = getAuthors()
     let html = `<select class="authors" id="authors">
-    <option value="0">Choose</option>`
+    <option value="0">Choose one...</option>`
 
     let authorList = authors.map(author => { 
         return `<option value="${author.id}">${author.name}</option>`

@@ -4,4 +4,13 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    margin-left: -2rem;
+}
+
+h4 {
+    margin-bottom: -0.001rem;
+}
+
+button {
+    margin-top: 1rem;
 }
