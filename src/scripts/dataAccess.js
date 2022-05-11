@@ -29,3 +29,13 @@ export const getRecipients = () => {
 export const getCompletedLetters = () => {
     return applicationState.completedLetters.map(completedLetters => ({...completedLetters}))
 }
+
+export const fetchAuthors = () => {
+    return fetch(`${API}/authors`)
+        .then(response => response.json())
+        .then(
+            (data) => {
+                applicationState.authors = data
+            }
+        )
+}
