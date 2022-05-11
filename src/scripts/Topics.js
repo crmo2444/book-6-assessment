@@ -3,7 +3,7 @@ import { getTopics } from "./dataAccess.js";
 export const Topics = () => {
     let topics = getTopics()
 
-    let html = `<ul>`
+    let html = `<ul class="topicList">`
 
     const topicList = topics.map(topic => {
         return `<li>
