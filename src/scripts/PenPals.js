@@ -1,10 +1,13 @@
 //responsibility: create function that renders all form HTML + saved letters
 
+import { Authors } from "./Authors.js"
+
 export const PenPals = () => {
     return `
     <section class="form">
         <h1>Pen Pal Society</h1>
             <div class="authors">
+            ${Authors()}
             </div>
             <div class="letter">
             </div>
