@@ -71,6 +71,30 @@
     {
       "entry": "What",
       "id": 7
+    },
+    {
+      "entry": "Hello! How are you doing today?",
+      "id": 8
+    },
+    {
+      "entry": "Hello",
+      "id": 9
+    },
+    {
+      "entry": "Boy",
+      "id": 10
+    },
+    {
+      "entry": "HOw are you      ",
+      "id": 11
+    },
+    {
+      "entry": "Whats up     ",
+      "id": 12
+    },
+    {
+      "entry": "What's goin on",
+      "id": 13
     }
   ],
   "recipients": [
@@ -97,61 +121,20 @@
   ],
   "completedLetters": [
     {
-      "author": "Katherine Newson",
-      "topic": "1",
-      "recipient": "David Berry",
-      "entry": "Nothing",
-      "id": 3
-    },
-    {
-      "author": "Thomas Rolfe",
+      "author": 4,
       "topic": "Congratulations",
-      "recipient": "David Berry",
-      "entry": "Hello!!",
-      "id": 4
+      "recipient": 2,
+      "entry": "Whats up     ",
+      "date": "5-12-2022",
+      "id": 2
     },
     {
-      "author": "3",
-      "topic": "Friendly",
-      "recipient": "1",
-      "entry": "Hello! How are you!",
-      "id": 5
-    },
-    {
-      "author": "2",
-      "topic": "Congratulations",
-      "recipient": "1",
-      "entry": "Why",
-      "id": 6
-    },
-    {
-      "author": "3",
-      "topic": "Condolences",
-      "recipient": "1",
-      "entry": "Help me  ",
-      "id": 7
-    },
-    {
-      "author": "1",
-      "topic": "Family",
-      "recipient": "3",
-      "entry": "Hello",
-      "id": 8
-    },
-    {
-      "author": "3",
+      "author": 3,
       "topic": "Business",
-      "recipient": "4",
-      "entry": "Hello whats up  ",
-      "id": 9
-    },
-    {
-      "author": "3",
-      "topic": "Friendly",
-      "recipient": "1",
-      "entry": "What",
-      "date": "2022-5-12 10:4:8",
-      "id": 10
+      "recipient": 1,
+      "entry": "What's goin on",
+      "date": "5-12-2022",
+      "id": 3
     }
   ]
 }

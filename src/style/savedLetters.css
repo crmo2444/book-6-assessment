@@ -1,0 +1,20 @@
+.savedLetter {
+    background-color: lightskyblue;
+    max-width: 27rem;
+    padding: 2rem;
+    box-shadow: 0.25rem 0.25rem 0.25rem rgb(78, 78, 78);
+}
+
+.letterTopic {
+    border-radius: 1rem;
+    border: 1px solid rgb(99, 64, 32);
+    background-color: lightgoldenrodyellow;
+    margin-left: 0.4rem;
+    margin-right: 19rem;
+    box-shadow: 0.25rem 0.25rem 0.25rem rgb(78, 78, 78);
+    text-align: center;
+}
+
+.letterDate {
+    font-size: smaller;
+}

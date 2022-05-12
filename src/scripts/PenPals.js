@@ -4,6 +4,7 @@ import { Authors } from "./Authors.js"
 import { saveCompletedLetters, sendLetter } from "./dataAccess.js"
 import { Letter } from "./Letter.js"
 import { Recipients } from "./Recipients.js"
+import { SavedLetters } from "./savedLetters.js"
 import { Topics } from "./Topics.js"
 
 export const PenPals = () => {
@@ -32,8 +33,8 @@ export const PenPals = () => {
     <button class="button" id="sendLetter">Send Letter</button>
 
     <section class="savedLetters">
-        <h2>Letters</h2>
- 
+        <h3>Letters</h2>
+        ${SavedLetters()}
     </section>`
 }
 
@@ -53,9 +54,9 @@ mainContainer.addEventListener("click", clickEvent => {
             entry: entry
         }
         const savedLetters = {
-            author: author,
+            author: parseInt(author),
             topic: topic,
-            recipient: recipient,
+            recipient: parseInt(recipient),
             entry: entry,
             date: date
         }
@@ -69,7 +70,7 @@ mainContainer.addEventListener("click", clickEvent => {
 export const getDate = () => {
     let today = new Date();
 
-    let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    let date = (today.getMonth()+1)+'-'+today.getDate()+'-'+today.getFullYear();
 
     return date
 }

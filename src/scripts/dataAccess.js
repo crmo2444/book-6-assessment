@@ -71,6 +71,16 @@ export const fetchRecipients = () => {
         )
 }
 
+export const fetchCompletions = () => {
+    return fetch(`${API}/completedLetters`)
+        .then(response => response.json())
+        .then(
+            (data) => {
+                applicationState.completedLetters = data
+            }
+        )
+}
+
 export const sendLetter = (userServiceRequest) => {
     const fetchOptions = {
         method: "POST",

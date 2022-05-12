@@ -5,7 +5,7 @@ import { getLetters, sendLetter } from "./dataAccess.js"
 export const Letter = () => {
   
 
-    return `<textarea class="letter" rows="4" cols="50">
+    return `<textarea class="letter" rows="4" cols="66">
             </textarea>`
 
 
