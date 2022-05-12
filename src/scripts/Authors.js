@@ -11,7 +11,7 @@ export const Authors = () => {
     <option value="0">Choose one...</option>`
 
     let authorList = authors.map(author => { 
-        return `<option value="${author.id}">${author.name}</option>`
+        return `<option class="author" value="${author.id}">${author.name}</option>`
     })
 
     html += authorList.join("")

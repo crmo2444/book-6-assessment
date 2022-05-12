@@ -1,23 +1,157 @@
 {
-    "authors": [
-        { "id": 1, "name": "David Berry","email": "davidaberry@email.com" },
-        { "id": 2, "name": "Dawn Steele","email": "dawnrsteele@email.com" },
-        { "id": 3, "name": "Katherine Newson","email": "katherinejnewson@email.com" },
-        { "id": 4, "name": "Thomas Rolfe","email": "thomaserolfe@email.com" }
-    ],
-    "topics": [
-        { "id": 1, "topic": "Business"},
-        { "id": 2, "topic": "Friendly"},
-        { "id": 3, "topic": "Family"},
-        { "id": 4, "topic": "Congratulations"},
-        { "id": 5, "topic": "Condolences"}
-    ],
-    "letters": [],
-    "recipients": [
-        { "id": 1, "name": "David Berry","email": "davidaberry@email.com" },
-        { "id": 2, "name": "Dawn Steele","email": "dawnrsteele@email.com" },
-        { "id": 3, "name": "Katherine Newson","email": "katherinejnewson@email.com" },
-        { "id": 4, "name": "Thomas Rolfe","email": "thomaserolfe@email.com" }
-    ],
-    "completedLetters": []
+  "authors": [
+    {
+      "id": 1,
+      "name": "David Berry",
+      "email": "davidaberry@email.com"
+    },
+    {
+      "id": 2,
+      "name": "Dawn Steele",
+      "email": "dawnrsteele@email.com"
+    },
+    {
+      "id": 3,
+      "name": "Katherine Newson",
+      "email": "katherinejnewson@email.com"
+    },
+    {
+      "id": 4,
+      "name": "Thomas Rolfe",
+      "email": "thomaserolfe@email.com"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "topic": "Business"
+    },
+    {
+      "id": 2,
+      "topic": "Friendly"
+    },
+    {
+      "id": 3,
+      "topic": "Family"
+    },
+    {
+      "id": 4,
+      "topic": "Congratulations"
+    },
+    {
+      "id": 5,
+      "topic": "Condolences"
+    }
+  ],
+  "letters": [
+    {
+      "entry": "Hello!!",
+      "id": 1
+    },
+    {
+      "entry": "Hello! How are you!",
+      "id": 2
+    },
+    {
+      "entry": "Why",
+      "id": 3
+    },
+    {
+      "entry": "Help me  ",
+      "id": 4
+    },
+    {
+      "entry": "Hello",
+      "id": 5
+    },
+    {
+      "entry": "Hello whats up  ",
+      "id": 6
+    },
+    {
+      "entry": "What",
+      "id": 7
+    }
+  ],
+  "recipients": [
+    {
+      "id": 1,
+      "name": "David Berry",
+      "email": "davidaberry@email.com"
+    },
+    {
+      "id": 2,
+      "name": "Dawn Steele",
+      "email": "dawnrsteele@email.com"
+    },
+    {
+      "id": 3,
+      "name": "Katherine Newson",
+      "email": "katherinejnewson@email.com"
+    },
+    {
+      "id": 4,
+      "name": "Thomas Rolfe",
+      "email": "thomaserolfe@email.com"
+    }
+  ],
+  "completedLetters": [
+    {
+      "author": "Katherine Newson",
+      "topic": "1",
+      "recipient": "David Berry",
+      "entry": "Nothing",
+      "id": 3
+    },
+    {
+      "author": "Thomas Rolfe",
+      "topic": "Congratulations",
+      "recipient": "David Berry",
+      "entry": "Hello!!",
+      "id": 4
+    },
+    {
+      "author": "3",
+      "topic": "Friendly",
+      "recipient": "1",
+      "entry": "Hello! How are you!",
+      "id": 5
+    },
+    {
+      "author": "2",
+      "topic": "Congratulations",
+      "recipient": "1",
+      "entry": "Why",
+      "id": 6
+    },
+    {
+      "author": "3",
+      "topic": "Condolences",
+      "recipient": "1",
+      "entry": "Help me  ",
+      "id": 7
+    },
+    {
+      "author": "1",
+      "topic": "Family",
+      "recipient": "3",
+      "entry": "Hello",
+      "id": 8
+    },
+    {
+      "author": "3",
+      "topic": "Business",
+      "recipient": "4",
+      "entry": "Hello whats up  ",
+      "id": 9
+    },
+    {
+      "author": "3",
+      "topic": "Friendly",
+      "recipient": "1",
+      "entry": "What",
+      "date": "2022-5-12 10:4:8",
+      "id": 10
+    }
+  ]
 }
