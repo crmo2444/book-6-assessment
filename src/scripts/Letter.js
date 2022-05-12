@@ -1,8 +1,12 @@
+import { getLetters, sendLetter } from "./dataAccess.js"
+
 //print HTML for letter box
 
 export const Letter = () => {
-    return `<textarea id="letter" name="letter" rows="4" cols="50">
-                Type letter here...
+  
+
+    return `<textarea class="letter" rows="4" cols="50">
             </textarea>`
+
 
 }
